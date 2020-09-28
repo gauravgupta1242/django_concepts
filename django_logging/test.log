@@ -1,0 +1,8 @@
+2020-09-28 19:52:57,030 - ERROR- Tried to Divide by zero
+2020-09-28 19:52:57,030 - ERROR- Include exception
+Traceback (most recent call last):
+  File "c:\Users\Parishi\Desktop\django_logging\logs_django.py", line 40, in <module>
+    div(1,0)
+  File "c:\Users\Parishi\Desktop\django_logging\logs_django.py", line 38, in div
+    return x / y
+ZeroDivisionError: division by zero
